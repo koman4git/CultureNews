@@ -42,7 +42,7 @@ main {
 .headline {
     background-image: url(../images/underwater-hotel.jpg);
     width: 100%;
-    height: 454px;
+    height: 465px;
     text-align: center;
     color: #fff;
 }
@@ -70,20 +70,34 @@ main .headline p {
 main .reviews {
 }
 main .reviews h2 {
+    text-align: center;
+    margin: 40px 0 0 0;
 }
 main .reviews-list {
+    display: grid;
+    grid-template-columns: 371px 371px 371px;
+    grid-column-gap: 30px;
+    justify-content: center;
 }
 main .reviews-item {
 }
 main article {
 }
 main article h3 {
+    position: relative;
+    top: 260px;
+    margin: 0;
+    letter-spacing: -1px;
+    font-size: 25px;
 }
 main article img {
 }
 main article p {
+    margin: 70px 0 35px 0;
+    line-height: 1.3;
 }
 main .reviews-link {
+    color: black;
 }
 main .promo {
 }
