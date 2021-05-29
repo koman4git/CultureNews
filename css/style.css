@@ -1,0 +1,123 @@
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.main-header {
+}
+.main-header-nav {
+    text-align: center;
+}
+.main-header-nav a {
+    
+}
+.main-header img {
+    margin: 50px 0 50px 0;
+}
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 0 137px;
+}
+.main-header .site-navigation-item {
+}
+.main-header .site-navigation-item a {
+    color: black;
+}
+main {
+}
+.visually-hidden {
+    visibility: hidden;
+    margin: 0;
+}
+.headline-icon{
+    width: 55px;
+    margin: 40px 0 40px 0;
+}
+.headline {
+    background-image: url(../images/underwater-hotel.jpg);
+    width: 100%;
+    height: 454px;
+    text-align: center;
+    color: #fff;
+}
+main .headline h2 {
+    color: #fff;
+    margin: 0;
+}
+main .headline a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 1;
+}
+main .headline img {
+}
+main .headline p {
+    width: 456px;
+    margin: 140px auto 0;
+    height: 199px;
+    line-height: 1.5;
+    color: silver;
+}
+main .reviews {
+}
+main .reviews h2 {
+}
+main .reviews-list {
+}
+main .reviews-item {
+}
+main article {
+}
+main article h3 {
+}
+main article img {
+}
+main article p {
+}
+main .reviews-link {
+}
+main .promo {
+}
+main .promo h2 {
+}
+main .promo a {
+}
+main .promo-list {
+}
+main .promo-item {
+}
+main .promo-item h3 {
+}
+main .promo-item p {
+}
+.main-footer {
+}
+.main-footer a {
+}
+.main-footer img {
+}
+.main-footer .footer-navigation {
+}
+.main-footer .footere-navigation-item {
+}
+.main-footer .footere-navigation-item a {
+}
+.main-footer .footer-navigation-item {
+}
+.main-footer .footer-navigation-item a {
+}
+.main-footer .social-list {
+}
+.main-footer .social-list-item {
+}
+.main-footer .social-list-item a {
+}
