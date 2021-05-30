@@ -5,6 +5,9 @@ li {
     list-style-type: none;
 }
 .main-header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
 }
 .main-header-nav {
     text-align: center;
@@ -23,6 +26,7 @@ li {
     font-size: 15px;
     letter-spacing: 2px;
     margin: 0 137px;
+    max-width: 1165px;
 }
 .main-header .site-navigation-item {
 }
@@ -45,6 +49,8 @@ main {
     height: 465px;
     text-align: center;
     color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 main .headline h2 {
     color: #fff;
@@ -148,6 +154,8 @@ main .promo-item p {
     text-align: center;
     background: #575757;
     padding: 30px 0 30px 0;
+    max-width: 1448px;
+    margin: 0 auto;
 }
 footer h2{
     margin: 0 0 30px 0;
