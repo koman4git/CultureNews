@@ -147,6 +147,10 @@ main .promo-item p {
 .main-footer {
     text-align: center;
     background: #575757;
+    padding: 30px 0 30px 0;
+}
+footer h2{
+    margin: 0 0 30px 0;
 }
 .main-footer a {
     color: #fff;
@@ -156,6 +160,7 @@ main .promo-item p {
 .main-footer .footer-navigation {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 .main-footer .footere-navigation-item {
 }
@@ -170,6 +175,7 @@ main .promo-item p {
     grid-template-columns: 40px 40px 40px;
     grid-column-gap: 27px;
     justify-content: center;
+    margin-top: 30px;
 }
 .main-footer .social-list-item {
     height: 40px;
