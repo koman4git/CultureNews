@@ -1,3 +1,7 @@
+body{
+    max-width: 1448px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
 }
@@ -5,9 +9,7 @@ li {
     list-style-type: none;
 }
 .main-header {
-    margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
 }
 .main-header-nav {
     text-align: center;
@@ -107,6 +109,8 @@ main .reviews-link {
 }
 main .promo {
     background: #f7f7f7;
+    max-width: 1448px;
+    margin: 0 auto;
 }
 .promo-block{
     width: 50%;
@@ -154,8 +158,6 @@ main .promo-item p {
     text-align: center;
     background: #575757;
     padding: 30px 0 30px 0;
-    max-width: 1448px;
-    margin: 0 auto;
 }
 footer h2{
     margin: 0 0 30px 0;
