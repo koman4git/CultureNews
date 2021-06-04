@@ -14,8 +14,8 @@ li {
 .main-header-nav {
     text-align: center;
 }
-.main-header-nav a {
-    
+.main-header .site-navigation-item a:hover, .main-footer .footer-navigation-item a:hover, .main-footer .social-list-item a:hover {
+    color: #ff7931;
 }
 .main-header img {
     margin: 50px 0 50px 0;
@@ -29,13 +29,6 @@ li {
     letter-spacing: 2px;
     margin: 0 137px;
     max-width: 1165px;
-}
-.main-header .site-navigation-item {
-}
-.main-header .site-navigation-item a {
-    color: black;
-}
-main {
 }
 .visually-hidden {
     visibility: hidden;
@@ -66,16 +59,12 @@ main .headline a {
     font-weight: 100;
     line-height: 1;
 }
-main .headline img {
-}
 main .headline p {
     width: 456px;
     margin: 140px auto 0;
     height: 199px;
     line-height: 1.5;
     color: silver;
-}
-main .reviews {
 }
 main .reviews h2 {
     text-align: center;
@@ -87,18 +76,12 @@ main .reviews-list {
     grid-column-gap: 30px;
     justify-content: center;
 }
-main .reviews-item {
-}
-main article {
-}
 main article h3 {
     position: relative;
     top: 260px;
     margin: 0;
     letter-spacing: -1px;
     font-size: 25px;
-}
-main article img {
 }
 main article p {
     margin: 70px 0 35px 0;
@@ -124,8 +107,6 @@ main .promo {
 }
 main .promo h2 {
     margin: 0 0 20px 0;
-}
-main .promo a {
 }
 main .promo-list {
     max-width: 370px;
@@ -154,6 +135,12 @@ main .promo-item p {
     text-transform: uppercase;
     color: #fff;
 }
+.promo-btn img{
+    transition: all 0.4s ease-in-out;
+}
+.promo-btn:hover img{
+    transform: rotate(360deg) scale(1.2);
+}
 .main-footer {
     text-align: center;
     background: #575757;
@@ -165,20 +152,10 @@ footer h2{
 .main-footer a {
     color: #fff;
 }
-.main-footer img {
-}
 .main-footer .footer-navigation {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
-}
-.main-footer .footer-navigation-item {
-}
-.main-footer .footer-navigation-item a {
-}
-.main-footer .footer-navigation-item {
-}
-.main-footer .footer-navigation-item a {
 }
 .main-footer .social-list {
     display: grid;
@@ -197,4 +174,10 @@ footer h2{
 }
 .social-list-item img{
     margin-top: 5px;
+}
+.main-footer .social-list-item a:hover{
+    background-color: #ff7931;
+}
+.main-footer .social-list-item:hover{
+    background-color: #ff7931;
 }
